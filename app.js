@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const ProductRoute = require('./routes/produtos');
-const OrdersRoute = require('./routes/peiddos');
+const OrdersRoute = require('./routes/pedidos');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 
